@@ -42,12 +42,12 @@
   "license": "MIT",
     "repository": {
     "type": "git",
-    "url": "git+https://github.com/pvvng/use-undo-manager.git"
+    "url": "git+https://github.com/pvvng/use-undo-manager"
   },
   "bugs": {
-    "url": "https://github.com/pvvng/use-undo-manager.git/issues"
+    "url": "https://github.com/pvvng/use-undo-manager/issues"
   },
-  "homepage": "https://github.com/pvvng/use-undo-manager.git#readme",
+  "homepage": "https://github.com/pvvng/use-undo-manager#readme",
   "scripts": {
     "dev": "vite",
     "build": "rm -rf dist && tsc && vite build",
