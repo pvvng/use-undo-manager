@@ -5,7 +5,6 @@ A powerful React hook for managing undo/redo functionality with delayed commit a
 [![npm version](https://img.shields.io/npm/v/use-undo-manager.svg?style=flat-square)](https://www.npmjs.com/package/use-undo-manager)
 [![npm downloads](https://img.shields.io/npm/dw/use-undo-manager.svg?style=flat-square)](https://www.npmjs.com/package/use-undo-manager)
 [![License](https://img.shields.io/npm/l/use-undo-manager.svg?style=flat-square)](LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/your-username/use-undo-manager/ci.yml?style=flat-square)](https://github.com/pvvng/use-undo-manager/actions)
 
 ## Features
 
