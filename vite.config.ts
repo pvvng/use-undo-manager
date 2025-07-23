@@ -15,7 +15,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: "src/index.ts",
-      name: "ReactTypingText",
+      name: "useUndoManager",
       fileName: () => `index.js`,
       formats: ["es"],
     },
