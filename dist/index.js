@@ -552,5 +552,5 @@ function Pn(p, G = {}) {
   };
 }
 export {
-  Pn as useUndoRedo
+  Pn as useUndoManager
 };

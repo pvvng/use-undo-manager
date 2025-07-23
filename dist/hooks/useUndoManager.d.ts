@@ -1,9 +1,9 @@
-export interface UseUndoRedoOptions<T> {
+export interface UseUndoManagerOptions<T> {
     commitDelay?: number;
     historyLimit?: number;
     onCommit?: (state: T) => void;
 }
-export declare function useUndoRedo<T>(initialState: T, options?: UseUndoRedoOptions<T>): {
+export declare function useUndoManager<T>(initialState: T, options?: UseUndoManagerOptions<T>): {
     state: T;
     committed: T;
     set: (newState: T) => void;
