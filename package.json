@@ -1,7 +1,7 @@
 {
   "name": "use-undo-manager",
   "description": "A React hook that enables undo/redo history management with debounced state commits.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "private": false,
   "keywords": [
@@ -40,7 +40,7 @@
   ],
   "author": "pvvng",
   "license": "MIT",
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/pvvng/use-undo-manager"
   },
