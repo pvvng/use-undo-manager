@@ -1,1 +1,1 @@
-export { useUndoRedo } from './useUndoRedo';
+export { useUndoManager } from './useUndoManager';
