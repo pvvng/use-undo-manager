@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect, useCallback } from "react";
 import isEqual from "lodash.isequal";
 
-export interface UseUndoRedoOptions<T> {
+export interface UseUndoManagerOptions<T> {
   /**
    * Delay in milliseconds before committing state changes (debounce time).
    * Default is 500ms.
@@ -21,9 +21,9 @@ export interface UseUndoRedoOptions<T> {
   onCommit?: (state: T) => void;
 }
 
-export function useUndoRedo<T>(
+export function useUndoManager<T>(
   initialState: T,
-  options: UseUndoRedoOptions<T> = {}
+  options: UseUndoManagerOptions<T> = {}
 ) {
   const delay = options.commitDelay ?? 500;
   const historyLimit = options.historyLimit ?? 50;
