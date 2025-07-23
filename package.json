@@ -1,18 +1,53 @@
 {
   "name": "use-undo-manager",
-  "description": "",
+  "description": "A React hook that enables undo/redo history management with debounced state commits.",
   "version": "0.0.0",
   "type": "module",
   "private": false,
-  "keywords": [],
+  "keywords": [
+    "react",
+    "react-hook",
+    "undo",
+    "redo",
+    "history",
+    "state-management",
+    "hooks",
+    "undo-redo",
+    "state",
+    "react-state",
+    "batching",
+    "debounce",
+    "time-travel",
+    "undoable",
+    "redoable",
+    "react-undo",
+    "react-redo",
+    "custom-hook",
+    "use-undo",
+    "use-redo"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "files": [
     "dist"
   ],
   "author": "pvvng",
   "license": "MIT",
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvvng/use-undo-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pvvng/use-undo-manager.git/issues"
+  },
+  "homepage": "https://github.com/pvvng/use-undo-manager.git#readme",
   "scripts": {
     "dev": "vite",
     "build": "rm -rf dist && tsc && vite build",
