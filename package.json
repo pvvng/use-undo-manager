@@ -1,5 +1,5 @@
 {
-  "name": "use-redo-undo",
+  "name": "use-undo-manager",
   "description": "",
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,9 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "author": "pvvng",
   "license": "MIT",
   "scripts": {
@@ -23,6 +25,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
+    "@types/lodash.isequal": "^4.5.8",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.6.0",
@@ -35,5 +38,8 @@
     "vite": "^7.0.4",
     "vite-plugin-dts": "^4.5.4",
     "vite-tsconfig-paths": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash.isequal": "^4.5.0"
   }
 }
